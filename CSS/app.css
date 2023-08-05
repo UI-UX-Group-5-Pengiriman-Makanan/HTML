@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #FF6347; 
+    position: fixed; 
+     top: 0; 
+     left: 0;
+     right: 0;
+     z-index: 9999;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 10px;
+    }
+
+    
+    footer {
+        position:relative;
+      background-color: #FF6347; 
+      padding: 20px 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer .social-icons img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    
+    body {
+      background-color: #FFFFFF; 
+    }
+
+    footer .call-us,
+    footer .follow-us {
+      color: #ffffff; 
+    }
+
+    
+    .search-form {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .search-form input[type="search"] {
+      border: 1px solid #000000;
+      background-color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .search-form button[type="submit"] {
+        border: 1px solid #000000;
+        background-color: #F0D400;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+    
+    .dropdown-menu {
+      background-color: #FF6347; 
+    }
+
+    .dropdown-menu a {
+      color: #fff; 
+    }
+    
+    .main-content {
+      background-color: #FFFFFF; 
+      padding: 30px;
+    }
+
+    .appstore{
+        height: 50px;
+        width: 100px;
+    }
+    .playstore{
+            height: 50px;
+            width: 100px;
+    }
+
+    .cart{
+        height: 50px;
+        width: 50px;
+    }
