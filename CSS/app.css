@@ -5,6 +5,9 @@
    left: 0;
    right: 0;
    z-index: 9999;
+   box-shadow: #F0D400;
+    border: #000000;
+    border-radius: 5px;
   }
 
   .navbar-brand {
@@ -14,6 +17,7 @@
   .navbar-nav .nav-item {
     margin-right: 10px;
     background-color: #FF6347;
+    
   }
 
   
@@ -41,6 +45,7 @@
 
   footer .call-us,
   footer .follow-us {
+
     color: #fff; /
   }
 
@@ -93,4 +98,9 @@
   .cart{
       height: 50px;
       width: 50px;
+  }
+
+  .gambar{
+    height: 100px;
+    width: 150px;
   }
