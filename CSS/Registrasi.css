@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-section {
+    height: 300px;
+    background: url(/Image/bgregis4.jpeg) center/cover no-repeat;
+}
+
+.registration-card {
+    position: relative;
+    margin-top: -100px;
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    padding: 40px 20px;
+    max-width: 600px; /* Increased max-width */
+    width: 90%;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f44336;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group div {
+    position: relative;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 60px 10px 40px; /* Increased padding on the right */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.social-buttons button {
+    margin-right: 10px;
+}
