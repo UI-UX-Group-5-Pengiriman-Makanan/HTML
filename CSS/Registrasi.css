@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background: url(/Image/bgregiskartun.jpg);
 }
 
 .hero-section {
@@ -16,10 +17,10 @@ body {
     backdrop-filter: blur(30px);
     border-radius: 10px;
     padding: 40px 20px;
-    max-width: 600px; /* Increased max-width */
+    max-width: 600px; 
     width: 90%;
     z-index: 1;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 .registration-card h2 {
@@ -81,4 +82,13 @@ body {
 
 .social-buttons button {
     margin-right: 10px;
+}
+
+.background-image {
+  background: url(/Image/bgregiskartun.jpg) center/cover no-repeat;
+  height: 500px; /* Adjust the height to your preference */
+  margin-top: -100px; /* You may need to adjust this value to position the background correctly */
+  position: relative;
+  z-index: -1; /* Ensure the background is behind the content */
+  border-radius: 10px; /* Add border-radius if needed */
 }
