@@ -1,3 +1,4 @@
+
 .navbar {
   background-color: #131111;
   position: relative; 
@@ -15,10 +16,13 @@
 }
 
 .navbar-nav .nav-item {
-  margin-right: 10px;
+  margin-right: 50px;
   background-color: #131111;
+  margin-left: auto;
   
 }
+
+
 
 
 footer {
@@ -53,6 +57,8 @@ footer .follow-us {
   display: flex;
   align-items: center;
   margin-left: auto;
+  padding-top: 25px;
+  margin-left: auto;
 }
 
 .search-form input[type="search"] {
@@ -72,17 +78,17 @@ footer .follow-us {
     }
 
     .dropdown-menu {
-      background-color: #F0D400; /* Warna dropdown menu menjadi merah tua (#FF6347) */
+      background-color: #F0D400; 
     }
     
     .dropdown-menu a {
-      color: #fff; /* Teks dalam dropdown menu menjadi putih */
+      color: #fff; 
     }
     
-    /* Mengubah warna latar belakang ketika menu dropdown dihover */
+
     .dropdown-menu a:hover {
-      background-color: #F0D400; /* Warna ketika menu dropdown dihover menjadi merah gelap (#820000) */
-      color: #fff; /* Teks tetap putih ketika menu dropdown dihover */
+      background-color: #F0D400; 
+      color: #fff; 
     }
     
 
@@ -103,12 +109,14 @@ footer .follow-us {
 .navbar-logo {
   position: absolute;
   top: 50%;
-  left: 100px;
+  left: 50px;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 100px;
   height: 100px;
+  
 }
+
 
 
 .text-center{
@@ -123,7 +131,7 @@ footer .follow-us {
 
 .gmbr{
   height: 200px;
-  width: 200px;
+  max-width: 100%;
 }
 
 .carousel-control-prev{
@@ -147,9 +155,9 @@ footer .follow-us {
   text-align: center;
   position: relative;
   display: inline-block;
-  z-index: 2; /* Agar tulisan ada di atas garis */
-  background-color: #FFFFFF; /* Atur warna latar belakang tulisan */
-  padding: 0 10px; /* Berikan padding pada tulisan */
+  z-index: 2; 
+  background-color: #FFFFFF;
+  padding: 0 10px; 
 }
 
 
@@ -161,12 +169,26 @@ footer .follow-us {
 
 .divider-line {
   border-top: 2px solid #000;
-  width: 400px;
+  width: 100px;
   margin: 0 10px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.card-tittle{
+.card-title{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .kartu {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-logo {
+    width: 80px; /* Sesuaikan sesuai kebutuhan */
+    height: 80px; /* Sesuaikan sesuai kebutuhan */
+  }
 }
