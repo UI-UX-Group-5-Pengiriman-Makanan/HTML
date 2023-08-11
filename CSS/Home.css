@@ -1,4 +1,20 @@
-
+@media (max-width: 576px) { 
+  .navbar-logo { 
+    display: none;
+    margin-top:0px;
+    margin-bottom: 100px;
+    margin-left: 0px; /* Sesuaikan sesuai kebutuhan */ 
+    padding: 0px; /* Sesuaikan sesuai kebutuhan */ 
+  } 
+}
+@media (max-width: 576px) { 
+  .navbar-profile { 
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left: 270px; /* Sesuaikan sesuai kebutuhan */ 
+    padding: 0px; /* Sesuaikan sesuai kebutuhan */ 
+  } 
+}
 .navbar {
   background-color: #131111;
   position: relative; 
@@ -8,7 +24,7 @@
  z-index: 9999;
  box-shadow: #F0D400;
   border: #000000;
-  border-radius: 5px;
+
 }
 
 .navbar-brand {
@@ -101,10 +117,6 @@ footer .follow-us {
         width: 100px;
 }
 
-.cart{
-    height: 50px;
-    width: 50px;
-}
 
 .navbar-logo {
   position: absolute;
@@ -180,15 +192,5 @@ footer .follow-us {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .kartu {
-    width: 100%; 
-  }
-}
 
-@media (max-width: 576px) {
-  .navbar-logo {
-    width: 80px; /* Sesuaikan sesuai kebutuhan */
-    height: 80px; /* Sesuaikan sesuai kebutuhan */
-  }
-}
+

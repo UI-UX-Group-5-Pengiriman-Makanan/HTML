@@ -1,129 +1,289 @@
+@media (max-width: 576px) { 
+  .navbar-logo { 
+    display: none;
+    margin-top:0px;
+    margin-bottom: 100px;
+    margin-left: 0px; /* Sesuaikan sesuai kebutuhan */ 
+    padding: 0px; /* Sesuaikan sesuai kebutuhan */ 
+  } 
+}
+@media (max-width: 576px) { 
+  .navbar-profile { 
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left: 270px; /* Sesuaikan sesuai kebutuhan */ 
+    padding: 0px; /* Sesuaikan sesuai kebutuhan */ 
+  } 
+}
 .navbar {
-    background-color: #131111;
-    position: relative; 
-   top: 0; 
-   left: 0;
-   right: 0;
-   z-index: 9999;
-   box-shadow: #F0D400;
-    border: #000000;
-    border-radius: 5px;
-  }
+  background-color: #131111;
+  position: relative; 
+ top: 0; 
+ left: 0;
+ right: 0;
+ z-index: 9999;
+ box-shadow: #F0D400;
+  border: #000000;
+
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 50px;
+  background-color: #131111;
+  margin-left: auto;
   
-  .navbar-brand {
-    font-weight: bold;
-  }
-  
-  .navbar-nav .nav-item {
-    margin-right: 10px;
-    background-color: #131111;
+}
+
+
+
+
+footer {
+  position:relative;  
+  background-color: #131111; 
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+
+body {
+  background-color: #FFFFFF;
+}
+
+footer .call-us,
+footer .follow-us {
+
+  color: #fff; /
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 25px;
+  margin-left: auto;
+}
+
+.search-form input[type="search"] {
+   
+    background-color: #ffffff;
+    padding: 5px 10px;
     
-  }
-  
-  
-  footer {
-    position:relative;  
-    background-color: #131111; 
-    padding: 20px 0;
-    color: #fff;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  footer .social-icons img {
-    width: 30px;
     margin-right: 10px;
   }
   
-  
-  body {
-    background-color: #FFFFFF;
-  }
-  
-  footer .call-us,
-  footer .follow-us {
-  
-    color: #fff; /
-  }
-  
-  .search-form {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-  
-  .search-form input[type="search"] {
+  .search-form button[type="submit"] {
      
-      background-color: #ffffff;
+      background-color: #FF6347;
       padding: 5px 10px;
       
       margin-right: 10px;
     }
+
+    .dropdown-menu {
+      background-color: #F0D400; 
+    }
     
-    .search-form button[type="submit"] {
-       
-        background-color: #FF6347;
-        padding: 5px 10px;
-        
-        margin-right: 10px;
-      }
-  
-      .dropdown-menu {
-        background-color: #F0D400; /* Warna dropdown menu menjadi merah tua (#FF6347) */
-      }
-      
-      .dropdown-menu a {
-        color: #fff; /* Teks dalam dropdown menu menjadi putih */
-      }
-      
-      /* Mengubah warna latar belakang ketika menu dropdown dihover */
-      .dropdown-menu a:hover {
-        background-color: #F0D400; /* Warna ketika menu dropdown dihover menjadi merah gelap (#820000) */
-        color: #fff; /* Teks tetap putih ketika menu dropdown dihover */
-      }
-      
-  
-  .appstore{
-      height: 50px;
-      width: 100px;
-  }
-  .playstore{
-          height: 50px;
-          width: 100px;
-  }
-  
-  .cart{
-      height: 50px;
-      width: 50px;
-  }
-  
-  .navbar-logo {
-    position: absolute;
-    top: 50%;
-    left: 100px;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    .dropdown-menu a {
+      color: #fff; 
+    }
+    
+
+    .dropdown-menu a:hover {
+      background-color: #F0D400; 
+      color: #fff; 
+    }
+    
+
+.appstore{
+    height: 50px;
     width: 100px;
-    height: 100px;
-  }
+}
+.playstore{
+        height: 50px;
+        width: 100px;
+}
+
+.cart{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  
+}
 
 
-  .card{
-    height: max-content;
-    width: 200px;
-    
-  }
 
-  .btn-menu {
-    border-color: #4F1D0C;
-    background-color: #4F1D0C;
-  }
+.text-center{
+  font-family: 'Lobster', cursive;
+  color: #FF6347;
+}
 
-  .btn-menu:hover {
-    background-color: #4F1D0C;
-    color: gold;
-    border-color: #4F1D0C;
+.crsl{
+  width: 100%;
+  height: 500px;
+}
+
+.gmbr{
+  height: 200px;
+  max-width: 100%;
+}
+
+.carousel-control-prev{
+ color: #ff0000;
+}
+
+.carousel-control-next-icon{
+  color: #ff0000;
+}
+
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.clickable-card:hover {
+  transform: scale(1.05);
+}
+
+.trending-title {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  z-index: 2; 
+  background-color: #FFFFFF;
+  padding: 0 10px; 
+}
+
+
+
+.trending-title {
+  position: relative;
+  display: inline-block;
+}
+
+.divider-line {
+  border-top: 2px solid #000;
+  width: 100px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .kartu {
+    width: 100%; 
   }
+}
+
+@media (max-width: 576px) {
+  .navbar-logo {
+    width: 80px; /* Sesuaikan sesuai kebutuhan */
+    height: 80px; /* Sesuaikan sesuai kebutuhan */
+  }
+}
+
+
+.btn-menu {
+  background-color: #4F1D0C;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-menu:hover {
+  background-color: gold;
+}
+
+.btn-menu:focus {
+  outline: none;
+}
+
+.card-container {
+display: flex;
+flex-wrap: wrap;
+margin-right: -20px;
+margin-top: 5rem;
+}
+.card {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 1s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.plus-button {
+background-color: #FF6347;
+border: none;
+border-radius: 50%;
+color: white;
+cursor: pointer;
+margin-left: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30px;
+height: 30px;
+transition: background-color 0.3s;
+}
+
+.plus-button:hover {
+background-color: #d63b20;
+}
+
+.menu-details {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+.menu-price {
+font-weight: bold;
+}
